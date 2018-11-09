@@ -9,7 +9,7 @@ int main(){
   string addressOne;
   string addressTwo;
 
-  cout<<"Questions for user one";
+  cout<<"Questions for user one"<<"\t\t"<<"\n";
   cout<<"whats your name ";
   getline(cin, nameOne);
   cout<<"whats your phone number? ";
@@ -17,7 +17,7 @@ int main(){
   cout<<"whats yout address? ";
   getline(cin, addressOne);
 
-  cout<<"Questions for user Two";
+  cout<<"Questions for user Two"<<"\t\t"<<"\n";
   cout<<"whats your name";
   getline(cin, nameTwo);
   cout<<"whats your phone number";
@@ -25,15 +25,15 @@ int main(){
   cout<<"whats your address";
   getline(cin,addressTwo);
 
-  cout<<"These are your responses";
+  cout<<"These are your responses from user one"<<"\t\t"<<"\n";
   cout<<nameOne;
   cout<<phoneNumberOne;
-  cout<<addressOne;
+  cout<<addressOne<<"\t\t"<<"\n";
 
-  cout<<"these are your responses";
+  cout<<"these are your responses for user two"<<"\t\t"<<"\n";
   cout<<nameTwo;
   cout<<addressTwo;
-  cout<<phoneNumberTwo;
+  cout<<phoneNumberTwo<<"\t\t"<<"\n";
 
   return 0;
 
