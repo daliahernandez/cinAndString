@@ -9,6 +9,11 @@ int main(){
   string addressOne;
   string addressTwo;
 
+  cout<<"whats your name ";
+  cin>>getline(cin, nameOne);
+  cout<<"whats your phone number? ";
+  cin>>getline(cin, phoneNumberOne);
+  cout<<"whats yout address? ";
 
 
 
